@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import { Recipe } from "../presentational/Recipe.jsx";
 
 class Container extends Component {
     constructor(props) {
@@ -7,7 +8,17 @@ class Container extends Component {
     }
     render() {
         return (
-            <h1>hello</h1>
+          <main>
+            <h1>Family Recipes</h1>
+            <Recipe
+              title="Pancakes"
+              recipe="flour, milk, eggs"
+              time="~30min"
+              image=""
+
+            />
+          </main>
+
         );
     }
 }
