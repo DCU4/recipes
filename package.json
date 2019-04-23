@@ -1,0 +1,19 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "React app to hold family recipes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCU4/recipes.git"
+  },
+  "author": "Dylan Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCU4/recipes/issues"
+  },
+  "homepage": "https://github.com/DCU4/recipes#readme"
+}
